@@ -51,10 +51,13 @@ a{
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: lighter;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero p{
     margin-top: 0;
+    text-align: left;
 }
 
 button{
@@ -72,6 +75,7 @@ button{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    text-align: left;
 }
 
 .hero-content{
@@ -79,7 +83,9 @@ button{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 500px;
 }
 
 .hero img{
@@ -193,7 +199,7 @@ button{
 
 .blue-box p{
     font-weight: normal;
-    margin-top: 0;
+    margin-top: 3px;
 }
 
 .blue-container{
