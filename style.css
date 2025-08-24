@@ -8,6 +8,8 @@ body{
     padding: 0;
 }
 
+/* HEADER START */
+
 .header{
     display: flex;
     background-color: #1F2937;
@@ -30,6 +32,10 @@ ul{
     margin-left: auto;
     font-weight: 300;
 }
+
+/*HEADER END*/
+
+/*START OF HERO SECTION*/
 
 .hero{
     background-color: #1F2937;
@@ -75,4 +81,51 @@ button{
     height: 300px;
     width: 500px;
     padding: 32px;
+}
+
+/* END OF HERO SECTION */
+
+/* INFO SECTION */
+
+.info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    padding: 64px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding: 32px;
+}
+
+.info-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.square{
+    border:3px #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.square-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
 }
