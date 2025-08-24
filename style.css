@@ -33,16 +33,46 @@ ul{
 
 .hero{
     background-color: #1F2937;
-    color: #F9FAF8;
+    color: #E5E7EB;
     display: flex;
     flex-direction: row;
+    padding-left:64px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.hero p{
+    margin-top: 0;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    margin-right: auto;
+}
+
+.hero-text{
+    font-family: 'Roboto';
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-content{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
 }
 
 .hero img{
     height: 300px;
     width: 500px;
+    padding: 32px;
 }
